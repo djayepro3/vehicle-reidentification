@@ -3,6 +3,8 @@
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
 
+The system aims to improve traffic monitoring by using image retrieval to re-identify vehicles across multiple camera views. This involves training a deep learning model to extract visual features from vehicle images, using techniques like triplet loss and mining strategies, and then ranking images based on their feature similarity. The system's performance is evaluated using mean Average Precision (mAP). 
+
 The main idea is to re-identify vehicles at different checkpoints or camera points to monitor the flow of traffic.
 
 I developed an image retrieval system using the VeRi dataset to re-identify vehicles to enhance urban mobility and planning:
